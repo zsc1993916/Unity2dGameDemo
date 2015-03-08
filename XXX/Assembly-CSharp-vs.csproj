@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6082EF5E-28F6-5266-C4E5-1A9D21FFE559}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DAnimationClip.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DAnimationEvent.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DAnimationFrame.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DAnimationFrameEvent.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DAnimationFrameInfos.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DAnimationPlayer.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Animation\Uni2DSpriteAnimation.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\AssetManagement\Uni2DAssetPostprocessor.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\AssetManagement\Uni2DEditorAssetTable.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Atlasing\Packer\Uni2DEditorTextureAtlasPacker.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Atlasing\Uni2DTextureAtlas.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Camera\Uni2DPixelPerfectCamera.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\BinarizedImage.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\CircularLinkedList.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\CircularLinkedListNode.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\Contour.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\DuplicataMarker.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\MultiValueDictionary.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\ReferenceContainer.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\ReferenceObject.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\SerializedSetting.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\Texture2DContainer.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Misc\Uni2DEditorPreferences.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\MultiUnityVersionSupport\MultiUnityVersionSupportUtility.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\MultiUnityVersionSupport\Uni2DUndo.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DBonePosition.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DBoneWeight.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DEditorSmoothBindingGUI.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DEditorSmoothBindingUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DMesh2D.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DSkinning.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DSkinningUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\SmoothBinding\Uni2DSmoothBindingBone.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Settings\Uni2DEditorSerializedSprite_BuildSettings.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Settings\Uni2DEditorSerializedSprite_InteractiveBuildSettings.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Settings\Uni2DEditorSpriteData.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Settings\Uni2DEditorSpriteSettings.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Settings\Uni2DSpriteRuntimeData.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Texture-to-mesh\Uni2DEditorContourExtractionUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Texture-to-mesh\Uni2DEditorContourPolygonizationUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Texture-to-mesh\Uni2DEditorPolygonTriangulationUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Texture-to-mesh\Uni2DEditorShapeExtractionUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Texture-to-mesh\Uni2DEditorSpriteBuilderUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Uni2DEditorSmoothBindingWindow.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Uni2DEditorSpriteBuilderWindow.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Sprite\Uni2DSprite.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Utils\Uni2DEditorBuildingProgressBar.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Utils\Uni2DEditorGUIUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Utils\Uni2DEditorResourceCopyUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Utils\Uni2DEditorUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Utils\Uni2DMathUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Sprite\Scripts\Utils\Uni2DSpriteUtils.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Utilities\OverrideRigidBodyConstraints.cs" />
+     <Compile Include="Assets\Root\Plugins\Uni2D\Utilities\ParallaxLayer.cs" />
+     <Compile Include="Assets\Root\Uni2D\Samples\Sprite Animation Viewer\Scripts\SpriteAnimationViewer.cs" />
+     <Compile Include="Assets\Scripts\AutoDestroy.cs" />
+     <Compile Include="Assets\Scripts\BoardController.cs" />
+     <Compile Include="Assets\Scripts\CoinController.cs" />
+     <Compile Include="Assets\Scripts\CoinsCounter.cs" />
+     <Compile Include="Assets\Scripts\FollowAction.cs" />
+     <Compile Include="Assets\Scripts\GhostController.cs" />
+     <Compile Include="Assets\Scripts\GoodsUp.cs" />
+     <Compile Include="Assets\Scripts\InputController.cs" />
+     <Compile Include="Assets\Scripts\LifeCounter.cs" />
+     <Compile Include="Assets\Scripts\PatrolAction.cs" />
+     <Compile Include="Assets\Scripts\PlayerAbility.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\ShelfDown.cs" />
+     <Compile Include="Assets\Scripts\SmartFollow.cs" />
+     <Compile Include="Assets\Scripts\SnakeController.cs" />
+     <Compile Include="Assets\Scripts\SpringController.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Uni2DLab">
+ <HintPath>C:/Users/maxxma/Desktop/小组游戏/版本/groupgame/groupgame/XXX/Assets/Root/Uni2D/Dlls/Uni2DLab.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
